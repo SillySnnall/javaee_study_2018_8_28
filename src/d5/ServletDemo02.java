@@ -1,3 +1,5 @@
+package d5;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -7,7 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.zip.GZIPOutputStream;
 
-@WebServlet(name = "ServletDemo02", urlPatterns = "/demo02")
+@WebServlet(name = "d5.ServletDemo02", urlPatterns = "/demo02")
 public class ServletDemo02 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

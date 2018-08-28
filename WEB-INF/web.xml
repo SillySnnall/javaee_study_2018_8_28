@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>ServletDemo06</servlet-name>
-        <servlet-class>ServletDemo06</servlet-class>
+        <servlet-class>d5.ServletDemo06</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -15,7 +15,7 @@
 
     <servlet>
         <servlet-name>ServletDemo07</servlet-name>
-        <servlet-class>ServletDemo07</servlet-class>
+        <servlet-class>d6.ServletDemo07</servlet-class>
         <!--配置ServletDemo07的初始化参数 -->
         <init-param>
             <param-name>name</param-name>

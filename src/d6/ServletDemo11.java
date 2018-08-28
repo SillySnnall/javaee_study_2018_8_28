@@ -1,3 +1,5 @@
+package d6;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,11 +13,13 @@ import java.io.InputStream;
 import java.text.MessageFormat;
 import java.util.Properties;
 
-@WebServlet(name = "ServletDemo11", urlPatterns = "/demo11")
+@WebServlet(name = "d6.ServletDemo11", urlPatterns = "/demo11")
 public class ServletDemo11 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
+
+    // 项目javaee_study_war_exploded 为 / 目录
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         /**
