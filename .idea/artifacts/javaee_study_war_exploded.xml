@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="javaee_study" />
         </element>
+        <element id="file-copy" path="$PROJECT_DIR$/web/private/index37.jsp" />
+        <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/gacl.tld" />
+        <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/simpletag.tld" />
+        <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/TagLib.tld" />
       </element>
     </root>
   </artifact>

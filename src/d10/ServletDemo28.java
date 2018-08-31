@@ -21,5 +21,6 @@ public class ServletDemo28 extends HttpServlet {
         request.setAttribute("data", data);
         //客户端访问RequestDemo06这个Servlet后，RequestDemo06通知服务器将请求转发(forward)到test.jsp页面进行处理
         request.getRequestDispatcher("/index28.jsp").forward(request, response);
+//        request.getRequestDispatcher("/WEB-INF/index24.jsp").forward(request, response);// 访问私有目录
     }
 }
