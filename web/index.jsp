@@ -12,5 +12,8 @@
   </head>
   <body>
   <a href="${pageContext.request.contextPath}/index2.jsp">跳转到首页</a>
+  <%
+    System.out.println("首页执行");
+  %>
   </body>
 </html>

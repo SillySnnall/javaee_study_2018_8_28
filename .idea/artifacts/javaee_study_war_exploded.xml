@@ -11,6 +11,12 @@
         <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/gacl.tld" />
         <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/simpletag.tld" />
         <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/TagLib.tld" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.39-bin" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/elFunction.tld" />
       </element>
     </root>
   </artifact>
