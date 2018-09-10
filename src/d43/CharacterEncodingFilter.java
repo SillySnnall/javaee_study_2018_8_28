@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author: 孤傲苍狼
  * @date: 2014-8-31 下午11:09:37
  */
-@WebFilter(filterName = "CharacterEncodingFilter", urlPatterns = "/*"   )
+//@WebFilter(filterName = "CharacterEncodingFilter", urlPatterns = "/*"   )
 public class CharacterEncodingFilter implements Filter {
 
     private FilterConfig filterConfig = null;

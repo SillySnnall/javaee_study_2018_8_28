@@ -12,6 +12,6 @@
 </head>
 <body>
 对不起，出错了，请联系管理员解决！
-异常信息如下：<%=exception.getMessage()%>
+<%--异常信息如下：<%=exception.getMessage()%>--%>
 </body>
 </html>

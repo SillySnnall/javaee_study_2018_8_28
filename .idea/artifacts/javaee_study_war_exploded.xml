@@ -15,6 +15,7 @@
           <element id="library" level="project" name="standard" />
           <element id="library" level="project" name="jstl" />
           <element id="library" level="project" name="mysql-connector-java-5.1.39-bin" />
+          <element id="library" level="project" name="commons-fileupload" />
         </element>
         <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/elFunction.tld" />
       </element>

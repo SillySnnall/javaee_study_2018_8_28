@@ -25,10 +25,6 @@ public class DoFormServlet extends HttpServlet {
 
     /**
      * 判断客户端提交上来的令牌和服务器端生成的令牌是否一致
-     *
-     * @param request
-     * @return true 用户重复提交了表单
-     * false 用户没有重复提交表单
      */
     private boolean isRepeatSubmit(HttpServletRequest request) {
         String client_token = request.getParameter("token");

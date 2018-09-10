@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponseWrapper;
  * @author: 孤傲苍狼
  * @date: 2014-9-7 上午10:52:42
  */
-@WebFilter(filterName = "GzipFilter", urlPatterns = "/*")
+//@WebFilter(filterName = "GzipFilter", urlPatterns = "/*")
 public class GzipFilter implements Filter {
 
     public void doFilter(ServletRequest req, ServletResponse resp,
